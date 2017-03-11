@@ -25,15 +25,12 @@ string solve(long long x){
                 k--;
             }
         }
-        
     }
-    
     return ret;
 }
 int main() {
     f[0]=1;
     for(int i=1;i<=15;i++)f[i]=f[i-1]*i;
-    
     
     int t;
     cin>>t;
